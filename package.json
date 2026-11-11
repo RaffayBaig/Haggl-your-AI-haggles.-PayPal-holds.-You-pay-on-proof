@@ -1,0 +1,12 @@
+{
+  "name": "haggl",
+  "version": "1.0.0",
+  "description": "Your AI haggles. PayPal holds. You pay on proof. AI agents negotiate, PayPal authorizes, AI verifies delivery before capture.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=18.17" },
+  "license": "MIT"
+}

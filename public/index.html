@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Haggl: your AI haggles, PayPal holds, you pay on proof</title>
+  <meta name="description" content="Send your AI agent to haggle like a bazaar. PayPal holds the money. The seller is paid only after AI verifies the delivery." />
+  <link rel="icon" href="/img/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="truck-border" aria-hidden="true"></div>
+  <div class="bg" aria-hidden="true"></div>
+  <header class="topbar">
+    <a href="#/" class="brand">
+      <span class="brand-mark">H</span>
+      <span class="brand-name">Haggl</span>
+    </a>
+    <nav class="nav">
+      <a href="#/" data-nav="market">Market</a>
+      <a href="#/sell" data-nav="sell">Sell</a>
+      <a href="#/dashboard" data-nav="dashboard">Seller dashboard</a>
+    </nav>
+    <div class="status-pills" id="status-pills"></div>
+  </header>
+
+  <main id="app" class="container"></main>
+
+  <footer class="footer">
+    <p><strong>Haggl</strong>: your AI haggles. PayPal holds. You pay on proof.</p>
+    <p class="muted">Built for the PayPal AI Hackathon 2026. Sandbox only: no real money moves.</p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
